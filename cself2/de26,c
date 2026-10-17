@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int x;
+    scan("%d",&x);
+    int t=x;
+    int d=0;
+    int a=0;
+    do{
+        d=x%10;
+        a=a*10+d;
+        x/=10;
+    } while(x>0)
+    for (;x/10)
+}
